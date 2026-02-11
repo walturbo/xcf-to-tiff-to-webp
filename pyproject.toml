@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "xcf-to-tiff-to-webp"
+version = "0.1.0"
+authors = ["Your Name <youremail@example.com>"]
+description = "A Python project to convert images from XCF to TIFF and WebP formats."
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyQt6 = "^6.0"
+Pillow = "^8.0"
+ImageMagick = "^7.0"
+Click = "^8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+black = "^21.0"
+mypy = "^0.910"
